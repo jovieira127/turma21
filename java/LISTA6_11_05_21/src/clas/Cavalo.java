@@ -5,8 +5,13 @@ public class Cavalo extends Animal {
 	public Cavalo(String nome, int idade) {
 		super(nome, idade);
 	}
-	public void acionarMovimento() {
-		System.out.println("Deve correr");
+	@Override
+	public void emitirSom() {
+		System.out.println("Som do animal: Hiin in in...");
+		
 	}
-
+	@Override
+	public void movimentar() {
+		System.out.println("Movimento do animal: Correndo...");
+	}
 }

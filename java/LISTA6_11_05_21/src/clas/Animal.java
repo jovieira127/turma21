@@ -1,6 +1,6 @@
 package clas;
 
-public class Animal {
+public abstract class Animal {
 	public String nome;
 	private int idade;
 	//construtores
@@ -25,6 +25,9 @@ public class Animal {
 	//metodos
 	public void emitirSom() {
 		System.out.println("emitindo som do animal");
+	}
+	public void movimentar() {
+		System.out.println("movimento do animal");
 	}
 
 }
