@@ -21,7 +21,5 @@ public class ZooTeste {
 		System.out.println("Preguiça com nome "+preguica1.getNome()+" e idade "+preguica1.getIdade());
 		preguica1.emitirSom();
 		preguica1.movimentar();
-	}
-	
-	
+	}	
 }
